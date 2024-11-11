@@ -1,0 +1,102 @@
+@charset "UTF8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: fac;
+    src: url(idroid.otf) format(opentype);
+
+    :root{
+        --cor0:#ebe5c5;
+        --cor1:#83e1ad;
+        --cor2:#3ddc84;
+        --cor3:#2fa866;
+        --cor4:#1a5c37;
+        --cor5:#063d1e;
+
+        --fonte-padrao: Arial, Verdana, Helvitica, sans-serif;
+
+        --fonte-destaque:"Bebas Neue", sans-serif;
+        --fonte-androide: "fac", cursive
+    }
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+}
+header{
+    background-image: linear-gradient(to bottom, #3DDB84, #355C47);
+    color: white;
+    text-align: center;
+    margin: 0%;
+    padding-top: 0%;
+}
+header > h1{font-family: var(--fonte-destaque);
+    color: white;}
+class{
+    padding-inline-start: 5px;
+    display: inline;
+    text-align: left;
+}
+class:hover{
+    border: 2px;
+    border-color: white;
+    border-style: solid;
+    padding: auto;
+    padding-right: 5px;
+    background-color: #83E1AD;
+}
+body{
+            background-color: #ebe5c5;
+            margin: 0%;
+            padding-top: 0px;
+            font-family: var(--fonte-padrao);
+}
+main{
+    margin: auto;
+    padding-left: 5px;
+    background-color: white;
+    width: 815px;
+}
+
+div#listas{
+    margin: auto;
+    text-align: left;
+    text-align: justify;
+    border-style: solid;
+    background-color: rgba(183, 255, 183, 0.788);
+    width: 90%;
+    h3{
+        background-color: #2FA866;
+        color: white;
+        border-style: solid;
+        margin-top: 0%;
+    }
+}
+h1{font-family: var(--fonte-androide);
+    color: var(--cor5);
+}
+h2{font-family: var(--fonte-androide);
+    background-image: linear-gradient(to right, rgb(188, 247, 188), white);
+    color: #1A5C37;
+    font-family: fac;
+}
+a{
+    color: green;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+strong{
+    color: #1A5C37;
+}
+div#tudo{
+    width: 800;
+    margin: 0%;
+
+}
+#video{
+    text-align: center;
+    margin: auto;
+    background-color: darkgreen;
+    padding: 20px;
+}

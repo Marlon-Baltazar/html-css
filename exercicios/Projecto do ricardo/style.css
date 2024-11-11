@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body{
+    background-color: black;
+    background-image: url(futbol.png);
+    background-repeat: no-repeat;
+    color: goldenrod;
+    text-align: justify;
+}
+div{
+    background-color: black;
+    margin: 400px;
+    margin-top: 0px;
+}
+header{
+    
+}

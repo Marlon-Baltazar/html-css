@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <STyle>
+        table{
+            border-collapse: collapse;
+        }
+        td{
+            border: solid 1px black;
+            padding: 8px;
+            width: 100px;
+            background-color: gray;
+        }
+        #dado{
+            background-color: yellow;
+        }
+    </STyle>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+    <!--Hierarquia de tabelas (simples)
+        Table
+            Table row
+                table header
+                    table data-->
+    <table>
+        <tr>
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr >
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+        <TR>
+            <TD>A3</TD>
+            <TD>B3</TD>
+            <TD>C3</TD>
+        </TR>
+        <TR>
+            <TD>A4</TD>
+            <TD id="dado">B4</TD>
+            <TD>C4</TD>
+        </TR>
+    </table>
+</body>
+</html>

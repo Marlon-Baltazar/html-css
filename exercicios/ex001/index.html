@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="html ico.ico" type="image/x-icon">
+    <title>Meu exercicio</title>
+</head>
+<style> body {background-color: rgb(255, 255, 255);}</style>
+<body>
+    <h1>Introdução</h1>
+    <h2>OI MUNDO</h2>
+    <p>Este e o meu primeiro documento HTML. Eu estou muito feliz</p>
+    <p>Este e um momento único! Eu estou criando um site</p>
+    <hr>
+    <h2>Paragrafo e quebra de linha</h2>
+    <p>Vc 
+        pode
+         escrever um paragrafo de qualquer forma,
+         basta por tudo entre &lt;p&gt; e &lt;\p&gt;</p>
+    <p>Mas se vc precisar quebrar-lo em um lugar específico <br> basta colocar &lt;br&gt;</p><!--less than | geater than-->
+    <hr>
+    <h1>Emojis</h1>
+    &reg;
+    &copy;
+    &trade;
+    &euro;
+    &pound;
+    &yen;
+    &cent;
+    &beta;
+    &Beta;
+    &delta;
+    &Delta;
+    &Alpha;
+    &alpha;
+    &gamma;
+    &Gamma;
+    &uparrow;
+    &downarrow;
+    &leftarrow;
+    &rightarrow;
+    &because;
+    &star;
+    &sol;
+    💀
+
+    <hr>
+
+    <h1>Principais formatações</h1>
+    <h2>Negrito ou destaque</h2>
+    <p>Nesta frase tem um <b>termo em negrito</b> usando a tag &lt;b&gt; (não semântica).</p>
+    <p>Nesta frase temos um <strong>termo em destaque</strong> usando a tag &lt;strong&gt;</p>
+
+    <h2>Itálico ou ênfase</h2>
+    <p>Nesta frase tem um <i>termo em itálico</i> usando a tag &lt;i&gt;(não semântico)</p>
+    <p>Nesta frase tem um <em>termo em enfâse</em> usando a tag &lt;em&gt;(semântico)</p>   
+
+    <hr>
+    <H1>Outras formatações</H1>
+    <h2>Código-fonte</h2>
+    <p><code>Esta frase está monoespaçada</code></p>
+    <pre>
+        <code>
+            Esta frase está "quebrada"
+                Sem utilizar a tag br
+                Utilizando a tag &lt;pre&gt; antes e depois da frase
+            Para fazer uma simulação de código
+        </code>
+    </pre>
+    <h2>Citações simples</h2>
+    <p>Como dizia um velho sábio: <q>mais vale morrer do que perder a vida</q></p>
+    <h2>Citações complexas</h2>
+    <p>Segundo David Schultz e Craig Cook</p>
+    <blockquote cite="//www.google.co.ao/books/edition/Beginning_HTML_with_CSS_and_XHTML/463rnr1d66MC?hl=pt-PT&gbpv=1&dq=html&printsec=frontcover">
+        A diferença entre elementos enline e um bloco de texto é importante. Os elementos html neste capítulo descrevm os blocos de texto. 
+    </blockquote> 
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr></p>
+    <p><bdo dir="rtl">Este código está ao contrário.</bdo></p>
+    <hr>
+    <h1>Listas</h1>
+    <h2>Listas ordenadas</h2>
+    <ol type="I">
+        <li>Acordar</li>
+        <li>Liga para o joão</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para a faculdade</li>
+        <li>ir para o trabalho</li>
+        <li>Voltar para casa</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol>
+    <h2>Listas ñ ordenadas</h2>
+    <ul type="square">
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Alface</li>
+        <li>Carne</li>
+        <li>Manteiga</li>
+    </ul>
+    <h2>Listas mistas </h2>
+    <h3>Meus jogos favoritos</h3>
+    <ul>
+        <li>PlayStation</li>
+        <ol type="1">
+            <li><abbr title="Grand Theft Auto">GTA</abbr></li>
+            <li>Rocket league</li>
+            <li>FIFA</li>
+        </ol>
+        <li>Telefone</li>
+        <ol>
+            <li>FC Mobile</li>
+            <li>Call Of Duty Mobile</li>
+        </ol>
+    </ul>
+    <h2>Listas de definições</h2>
+    <dl>
+        <dt>Termo</dt>
+        <dd>Definição
+    </dl>
+    <dl>
+        <dt>Html</dt>
+        <dd>Linguagem de marcação para a criação de conteúdo de um site</dd>
+    </dl>
+    <hr>
+    <h1>Links</h1>
+    <h2>Link externo</h2>
+    <p>Se inscreva no <a href="https://www.youtube.com/@MiguelArts-r7b/featured" target="_blank" rel="external">canal do meu primo</a></p>
+    <p>Este site é um oferecimento de <a href="https://www.hostnet.com.br/" target="_blank" rel="nofollow">hostnet</a></p>
+    <h2>Link interno</h2>
+    Veja também: <a href="pag002.html" rel="next">A namorada do Misael</a>
+
+    <p>Voçê também pode ir para a minha <a href="Terceira página/pag003.html">terceira página</a></p>
+
+    <h2>Links para download</h2>
+
+    <ul>
+        <li><a href="Arquivo/chave de recuperação.pdf" download="chave de recuperação.pdf" type="application/pdf">Baixar o arquivo PDF</a></li>
+        <li><a href="Arquivo/chave de recuperação.zip" download="chave de recuperação.zip" type="application/zip">Baixar o arquivo zip</a></li>
+    </ul>
+
+    <hr>
+    <h1>Mídias</h1>
+
+    <h1>Imagens</h1>
+    <p>Podemos adicionar imagens que estão na mesma pasta</p>
+    <img src="html5 250.png" alt="Logo HTML5">
+    <p>Tbm podemos adicionar imagens em sub-pastas</p>
+    <img src="imagem/logo css 250.png" alt="Logo Css3">
+    <p>Tbm podemos carregar imagens externas</p>
+    <img src="https://cdn.iconscout.com/icon/free/png-256/free-javascript-3629449-3031512.png" alt="JavaScript">
+
+    <h2>Imagens dinâmicas</h2>
+    <p>Tente abrir este site em vários dispositivos diferentes ou aumente e diminua a janela do site</p>
+
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens002/fotos-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens002/fotos-m.png" type="image/png">
+        <img src="imagens002/fotos-g.png" alt="Imagem flexivel">
+    </picture>
+
+    <h2>Reproduzindo áudio</h2>
+    <p>Vamos aprender a reproduzir áudio no HTML5</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="happymistake.mp3" type="audio/mpeg">
+        <source src="happymistake.ogg" type="audio/ogg">
+        <source src="happymistake.wav" type="audio/wav">
+        <p>Infelizmente o seu navegador não consegue reproduzir o áudio. <a href="happymistake.mp3">Clique aqui</a> para baixar</p>
+    </audio>
+
+    <h2>Vídeos</h2>
+    <h3>Inserindo vídeos hospedados localmente</h3>
+    <p>Este vídeo está hospedado no meu servidor</p>
+    <video autoplay controls loop height="500">
+        <source src="videos/meuvideo.mp4" type="video/mp4">
+        <source src="videos/Meuvideo002.mp4" type="video/mp4">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos</p>
+    </video>
+    <h3>Inserindo vídeos do youtube</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg?si=6w9YIqr-h2sGfFri" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body>
+</html>

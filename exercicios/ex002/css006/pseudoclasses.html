@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        div{
+            background-color: lightgray;
+            text-align: center;
+            border: 0.5px solid black;
+            height: 200px;
+            width: 200px;
+
+        }
+
+        div > p{
+            display: none;
+        }
+
+        div:hover > p{
+            display:block
+        }
+
+        div:hover{
+            background-color: yellow;
+            color: red;
+        }
+        a{
+            text-decoration: none;
+            color: blue;
+        }
+        a:active{
+            color: yellow;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        a:visited{
+            color: blueviolet;
+        }
+        a:visited:hover{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">
+        01
+        <p>Se voçê se mexer, és damo da Ketula</p>
+    </div>
+    <div id="d2">
+        02
+        <p>Se voçê se mexer, és damo da Ketula</p>       
+    </div>
+    <div id="d3">
+        03
+        <p> Se voçê se mexer, és damo da Ketula</p>
+    </div>
+    <div id="d4">
+        04
+        <p> Se voçê se mexer, és damo da Ketula</p>
+    </div>
+    <div id="d5">
+        05
+        <p>Se voçê se mexer, és damo da Ketula</p>
+    </div>
+    <div id="d6">
+        06
+        <p>Se voçê se mexer, és damo da Ketula</p>
+    </div>
+    <h1>Links</h1>
+
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io/" target="_blank">Github</a></li>
+        <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/" target="_blank">Curso em vídeo</a></li>
+    </ul>
+</body>
+</html>

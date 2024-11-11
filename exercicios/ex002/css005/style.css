@@ -1,0 +1,23 @@
+@charset "UTF8";
+
+body{
+    background-image: linear-gradient(to right, rgb(125, 181, 185), rgb(255, 255, 255));
+}
+
+h1{
+    color: rgb(0, 8, 100);
+}
+
+h1#principal{
+             background-color: rgb(14, 51, 67);
+             color: white;
+             text-align: center;
+}
+
+h2{
+    color: rgb(0, 132, 255);
+}
+
+.destaque{
+    background-image: linear-gradient(to right, lightblue, darkblue);
+}

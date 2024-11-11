@@ -1,0 +1,19 @@
+@charset "UTF8";
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&display=swap');
+
+body{background-image: linear-gradient(to right, #E60700, #E6007e, #DB00E6);
+    font-family: "Playwrite GB J", cursive;}
+
+main{background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    width: 600px;
+    box-shadow: 7px 7px 15px #68006ebf;
+    padding: 10px;}
+
+h1{color: #4400E6;
+    text-align: center;}
+
+h2{color: #8F00E6;
+    text-align: center;}
+p{text-align: justify;}
